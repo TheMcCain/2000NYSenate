@@ -29,8 +29,8 @@ campaignTrail_temp.election_json = [
         "pk": 9,
         "fields": {
             "year": 2000,
-            "summary": "<p>As New York enters the next millenium, four-term incumbent Senator Daniel Patrick Moynihan has announced his retirement after over 20 years of serving the state. With Bill Clinton's first term wrapping up, all eyes are on this lucrative open seat that is now up for grabs. <br><br> On July 7, 1999, the First Lady of the United States, Hillary Clinton, formally announced an exploratory committee to run for the Senate. Though New York is solidly blue at the federal and  this election has already become a media spectacle. Mayor of New York City, Rudy Giuliani, has already expressed interest in running for the open seat as well. Whoever comes out on top, this election is sure to be generational, one way or another.",
-            "image_url": "https://i.postimg.cc/RCYTVXvL/Election-image-or-smth.png",
+            "summary": "<p>As New York enters the next millenium, four-term incumbent Senator Daniel Patrick Moynihan has announced his retirement after over 20 years of serving the state. With Bill Clinton's first term wrapping up, all eyes are on this lucrative open seat that is now up for grabs. <br><br> On July 7, 1999, the First Lady of the United States, Hillary Clinton, formally announced an exploratory committee to run for the Senate. Though New York is solidly blue at the federal level, this election has already become a media spectacle. Mayor of New York City, Rudy Giuliani, has already expressed interest in running for the open seat as well. Whoever comes out on top, this election is sure to be generational, one way or another.",
+            "image_url": "https://i.postimg.cc/VkRjCcxd/image.png",
             "winning_electoral_vote_number": 270,
             "advisor_url": "",
             "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">The Florida Recount / 2000 Election</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000RH0DVM/amhius20-20\" target=”_blank”>Jeffrey Toobin - Too Close to Call: The Thirty-Six-Day Battle to Decide the 2000 Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B00EMLDHFI/amhius20-20\" target=”_blank”>Andrew E. Busch & James W. Ceaser - The Perfect Tie: The True Story of the 2000 Presidential Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>Books by the Candidates</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000C4SV2I/amhius20-20\" target=”_blank”>George W. Bush - A Charge to Keep: My Journey to the White House</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0452269350/amhius20-20\" target=”_blank”>Al Gore - Earth in the Balance</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\"http://www.vanityfair.com/news/2004/10/florida-election-2000\" target=”_blank”>The Path to Florida</a></br><a href=\"http://www.historyplace.com/speeches/gore-concedes.htm\" target=”_blank”>Al Gore Concedes the 2000 Election</a>",
@@ -57,7 +57,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#5c7cc7",
             "secondary_color_hex": "#FFA0A0",
             "is_active": 1,
-            "image_url": "",
+            "image_url": "https://i.postimg.cc/Hxf5gWyy/image.png",
             "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Confounding the predictions of many experts, you were able to turn the tables on Al Gore, in spite of the economy and Clinton's popularity.</p><p>On the political front, you can push for tax cuts to spur the economy and return the budget surplus to the American people. You might also pursue education and immigration reform, individual Social Security accounts, and new laws to defend the family and the sanctity of life.</p>",
             "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Perhaps it was always a long-shot, with the Democrats in such a commanding position after eight years of Bill Clinton. In any case, at least you are still the Governor of Texas.</p><p>Expect Al Gore to unleash a new round of government programs and environmental regulations. You are still youngish, however. If the election was close this time, perhaps you can run again in 2004, or work on behalf your brother Jeb.</p>",
             "no_electoral_majority_message": "<h3>Wow! You have won in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes accordingly.</p><p>Given the incredibly close nature of the election, you will surely be expected to govern as a moderate, conciliatory President. Right??</p>",
@@ -80,7 +80,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#a8403b",
             "secondary_color_hex": "#90C0FF",
             "is_active": 1,
-            "image_url": "",
+            "image_url": "https://i.postimg.cc/m2qQ3wDJ/Giuliani.png",
             "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Though it was perhaps expected, you could have easily faltered at a number of points. Credit to you for pulling through.</p><p>On the political front, you can continue the Clinton legacy and strengthen Social Security for generations to come. Perhaps you can succeed on health care where Clinton came up short? Or maybe you can create a future of renewable energy for America. Just be wary of a (George or Jeb?) Bush challenge in 2004.</p>",
             "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Surely the second-guessing will be intense, but if things were close you could probably run again in 2004.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner. A lot should depend on the margin of his victory, and whether it was large or small.</p>",
             "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, for the first time since 1824. Unfortunately for you, a majority of states have Republican controlled congressional delegations.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner.</p>",
@@ -116,8 +116,8 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 81,
         "fields": {
-            "first_name": "Dick",
-            "last_name": "Cheney",
+            "first_name": "Democratic",
+            "last_name": "Party",
             "election": 9,
             "party": "Republican",
             "state": "Wyoming",
@@ -126,7 +126,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#FF0000",
             "secondary_color_hex": "#FFA0A0",
             "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/dick-cheney-2000.jpg",
+            "image_url": "",
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
@@ -139,8 +139,8 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 85,
         "fields": {
-            "first_name": "Joe",
-            "last_name": "Lieberman",
+            "first_name": "Republican",
+            "last_name": "Party",
             "election": 9,
             "party": "Democrat",
             "state": "Connecticut",
@@ -179,7 +179,16 @@ campaignTrail_temp.running_mate_json = [
     }
 ]
 
-campaignTrail_temp.credits = "Various people"
+credits = function() {
+    c = ["Coding\nTheMcCain\n\nWriting\nTheMcCain\n\nBanner, candidate images, and other art assets\nlittleamericanman\n\nBorrows code from 2012 Shattered,  \n\n Thanks for playing!"]
+    text = ""
+    for (i in c) {
+        text += c[i] + "\n"
+    }
+    alert(text)
+  }
+
+campaignTrail_temp.credits = "<button onclick='credits()'>Various People</button>";
 
 campaignTrail_temp.opponents_default_json = [
     {
@@ -227,12 +236,15 @@ jet_data = {
 //#startcode
 
 
-corrr = '\n              <h2>The Campaign Trail</h2><font id="wittyquote" size="4" color="white"><em>quote</em></font>\n            ';
+quotes = ["''A true New Yorker isn't someone who was born in New York, but someone who couldn’t live anywhere else.''", "''I got to preside over the city during four Yankee championships.''", "''History will be made on November 7th, 2000.''"]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+corrr = `\n<h2>The Campaign Trail</h2><font id='wittyquote' size='4' color='FFFFFF'><em>` + customquote + `</em></font>`;
 
+e.collect_results = true;
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#406c9c";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#34587F";
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#476f9a";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#D6DCE6";
 
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
 
@@ -240,10 +252,60 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 
 $(".container")[0].style.backgroundColor = "#34587f";
 
-document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
+document.getElementById("header").src = "https://i.postimg.cc/FHbFDrpV/image.png";
 
 document.body.background = "https://i.postimg.cc/3w35RK3G/image.png";
 
 document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#d6dce6!important;}</style>";
 
 //#endcode
+
+e.HomeStateText = "County:";
+
+// remove vp screen
+const style = document.createElement("style");
+
+style.innerHTML = `
+#opponent_selection_id_back {
+    display: none; 
+  }
+  div#site_credits p,
+  div#site_credits a {
+  color: white !important;
+  }
+
+  body {   
+    background-position: center;
+    background-size: cover;
+}
+  .campaign_trail_start_emphasis {
+    background: #406C9C;
+  }
+
+`; 
+
+document.head.appendChild(style);
+
+document.getElementById("inner_window_1").children[0].innerHTML=`<h3>Do you have what it takes to win a Senate election?</h3>`
+document.getElementById("inner_window_1").children[1].innerHTML = `<li>Select a candidate and a party to find out.</li><li>You will answer questions about your platform and positions, and also about your campaign strategy.</li><li>The answers will affect your popularity for better or worse, both statewide and in individual counties.</li><li>Walk the fine line between appealing to your base and winning a majority of the votes.</li><li>Additionally, the game includes achievements, diverging paths, and secret endings.</li><li>To load a mod, scroll down below to view the mod selection, select a mod, click submit, and then press "Click Here to Begin!".</li><li>Alternatively, click the 'Custom Mod Loader' button to load a mod by copying and pasting the codes, or even save them!</li>`;
+
+    const gameStart = document.getElementById('game_start');
+    const gameWindow = document.getElementById('game_window');
+
+    if (gameStart) {
+        gameStart.innerHTML = '<strong>Click here to begin.</strong>';
+        const clearHeight = () => { if (gameWindow) gameWindow.style.removeProperty('height'); };
+        if (window.jQuery) $('#game_start').on('click', clearHeight);
+        else gameStart.addEventListener('click', clearHeight);
+    }
+
+  // Remove VP selection
+  let z = new MutationObserver((mutationsList, observer) => {
+    let runningMateSummary = document.querySelector("#running_mate_summary");
+    if (runningMateSummary) {
+      $("#running_mate_id_button").click();
+      observer.disconnect();
+    }
+  });
+
+z.observe(document, { subtree: true, childList: true });
