@@ -29,8 +29,8 @@ campaignTrail_temp.election_json = [
         "pk": 9,
         "fields": {
             "year": 2000,
-            "summary": "<p>As New York enters the next millenium, four-term incumbent Senator Daniel Patrick Moynihan has announced his retirement after over 20 years of service to the state. With Bill Clinton's first term wrapping up, all eyes are on this lucrative open seat that is now up for grabs. <br><br> On July 7, 1999, the First Lady of the United States, Hillary Clinton, formally announced an exploratory committee to run for the Senate. Though New York is solidly blue at the federal and  this election has already become a media spectacle. Mayor of New York City, Rudy Giuliani, has already expressed interest in running for the open seat as well. Whoever comes out on top, this election is sure to be generational, one way or another.",
-            "image_url": "",
+            "summary": "<p>As New York enters the next millenium, four-term incumbent Senator Daniel Patrick Moynihan has announced his retirement after over 20 years of serving the state. With Bill Clinton's first term wrapping up, all eyes are on this lucrative open seat that is now up for grabs. <br><br> On July 7, 1999, the First Lady of the United States, Hillary Clinton, formally announced an exploratory committee to run for the Senate. Though New York is solidly blue at the federal and  this election has already become a media spectacle. Mayor of New York City, Rudy Giuliani, has already expressed interest in running for the open seat as well. Whoever comes out on top, this election is sure to be generational, one way or another.",
+            "image_url": "https://i.postimg.cc/RCYTVXvL/Election-image-or-smth.png",
             "winning_electoral_vote_number": 270,
             "advisor_url": "",
             "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">The Florida Recount / 2000 Election</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000RH0DVM/amhius20-20\" target=”_blank”>Jeffrey Toobin - Too Close to Call: The Thirty-Six-Day Battle to Decide the 2000 Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B00EMLDHFI/amhius20-20\" target=”_blank”>Andrew E. Busch & James W. Ceaser - The Perfect Tie: The True Story of the 2000 Presidential Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>Books by the Candidates</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000C4SV2I/amhius20-20\" target=”_blank”>George W. Bush - A Charge to Keep: My Journey to the White House</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0452269350/amhius20-20\" target=”_blank”>Al Gore - Earth in the Balance</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\"http://www.vanityfair.com/news/2004/10/florida-election-2000\" target=”_blank”>The Path to Florida</a></br><a href=\"http://www.historyplace.com/speeches/gore-concedes.htm\" target=”_blank”>Al Gore Concedes the 2000 Election</a>",
@@ -51,9 +51,9 @@ campaignTrail_temp.candidate_json = [
             "last_name": "Clinton",
             "election": 9,
             "party": "Democrat",
-            "state": "New York",
+            "state": "Westchester",
             "priority": 1,
-            "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
+            "description": "<p>Hillary Rodham Clinton is the wife of President Bill Clinton and the First Lady of the United States. Rather politically active for such a ceremonial position, she has seen a surge in approval ratings, especially after her husband got caught up in the Monica-Lewinsky scandal a few months ago. Before that, she was the First Lady of Arkansas. <br><br> Of course, none of that changes the fact that she has never lived in New York once in her life, and her opponents will call her a carpetbagger at every chance they get, and her nomination will give Republicans all the cannon fodder they could ever need. Still, she has support of the National Democratic Party, broad name recognition and a massive fundraising game. If she can manage her campaign perfectly, she may soon get 6 years on Capitol Hill. </p>",
             "color_hex": "#5c7cc7",
             "secondary_color_hex": "#FFA0A0",
             "is_active": 1,
@@ -74,13 +74,13 @@ campaignTrail_temp.candidate_json = [
             "last_name": "Giuliani",
             "election": 9,
             "party": "Republican",
-            "state": "Tennessee",
+            "state": "Manhattan",
             "priority": 2,
-            "description": "<p>Rudy Giuliani is </p>",
+            "description": "<p>Rudy Giuliani is the Republican Mayor of New York City.  Following a narrow victory in 1993, Giuliani has become increasingly popular with residents of the city, mainly due to his tough-on-crime policies which led to a significant reduction of violence in the city. He romped to a landslide victory in 1997 by over 17 points, even as the city remained overwhelmingly Democratic at the state and national level. <br><br> Limited from seeking a third term, Giuliani has continued to have skyrocketing popularity in the state's most important city, and is by far the best contender the Republicans have. If he plays his cards right, New York might just send a Republican Senator to Congress come next year. </p>",
             "color_hex": "#a8403b",
             "secondary_color_hex": "#90C0FF",
             "is_active": 1,
-            "image_url": "https://www.jetsimon.com/public/static/images/al-gore-2000.jpg",
+            "image_url": "",
             "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Though it was perhaps expected, you could have easily faltered at a number of points. Credit to you for pulling through.</p><p>On the political front, you can continue the Clinton legacy and strengthen Social Security for generations to come. Perhaps you can succeed on health care where Clinton came up short? Or maybe you can create a future of renewable energy for America. Just be wary of a (George or Jeb?) Bush challenge in 2004.</p>",
             "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Surely the second-guessing will be intense, but if things were close you could probably run again in 2004.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner. A lot should depend on the margin of his victory, and whether it was large or small.</p>",
             "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, for the first time since 1824. Unfortunately for you, a majority of states have Republican controlled congressional delegations.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner.</p>",
@@ -100,36 +100,13 @@ campaignTrail_temp.candidate_json = [
             "state": "Connecticut",
             "priority": 3,
             "description": "<p>Ralph Nader enters the 2000 election as the Green candidate after years as an activist and consumer advocate.</p><p>After eight years of Bill Clinton, it is clear that the United States needs a true liberal alternative -- one that will fight for fair trade, universal health care, free college, and campaign finance reform. Nader's primary goal in this election is to win 5% of the popular vote, which will qualify the Green Party for federal matching funds in 2004.</p>",
-            "color_hex": "#00C100",
+            "color_hex": "#ffe95b",
             "secondary_color_hex": "#A1FFA1",
             "is_active": 0,
             "image_url": "",
             "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>This was definitely not supposed to happen. Good luck!</p>",
             "electoral_loss_message": "<h3>As expected, you have lost the 2000 election.</h3><p>The legacy of this campaign depends on a couple of factors. First of all, did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash.</p>",
             "no_electoral_majority_message": "<h3>Wow! No candidate received 270 electoral votes, but the House will elect George W. Bush as President.</h3><p>Did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash, especially since they will lose the vote in the House.</p>",
-            "description_as_running_mate": "''",
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 80,
-        "fields": {
-            "first_name": "Pat",
-            "last_name": "Buchanan",
-            "election": 9,
-            "party": "Reform",
-            "state": "Virginia",
-            "priority": 4,
-            "description": "''",
-            "color_hex": "#FFFF00",
-            "secondary_color_hex": "#FFFFC0",
-            "is_active": 0,
-            "image_url": "''",
-            "electoral_victory_message": "''",
-            "electoral_loss_message": "''",
-            "no_electoral_majority_message": "''",
             "description_as_running_mate": "''",
             "candidate_score": 1,
             "running_mate": false
@@ -210,8 +187,7 @@ campaignTrail_temp.opponents_default_json = [
         "candidates": [
             77,
             78,
-            79,
-            80
+            79
         ]
     }
 ]
@@ -222,8 +198,7 @@ campaignTrail_temp.opponents_weighted_json = [
         "candidates": [
             77,
             78,
-            79,
-            80
+            79
         ]
     }
 ]
@@ -241,18 +216,18 @@ jet_data = {
     "headerColor": "#406c9c",
     "windowColor": "#476f9a",
     "containerColor": "#34587f",
-    "innerWindowColor": "#5e769c",
+    "innerWindowColor": "#d6dce6",
     "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
-    "backgroundImageUrl": "https://i.postimg.cc/Hx6vWv5X/Background.jpg",
+    "backgroundImageUrl": "https://i.postimg.cc/3w35RK3G/image.png",
     "endingTextColor": "#ffffff",
-    "customQuote": "Custom quote here",
+    "customQuote": "quote",
     "gameTitle": "The Campaign Trail"
 }
 
 //#startcode
 
 
-corrr = '\n              <h2>The Campaign Trail</h2><font id="wittyquote" size="4" color="white"><em>Custom quote here</em></font>\n            ';
+corrr = '\n              <h2>The Campaign Trail</h2><font id="wittyquote" size="4" color="white"><em>quote</em></font>\n            ';
 
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#406c9c";
@@ -267,8 +242,8 @@ $(".container")[0].style.backgroundColor = "#34587f";
 
 document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
 
-document.body.background = "https://i.postimg.cc/Hx6vWv5X/Background.jpg";
+document.body.background = "https://i.postimg.cc/3w35RK3G/image.png";
 
-document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#5e769c!important;}</style>";
+document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#d6dce6!important;}</style>";
 
 //#endcode
