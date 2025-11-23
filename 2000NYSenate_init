@@ -116,8 +116,8 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 81,
         "fields": {
-            "first_name": "Democratic",
-            "last_name": "Party",
+            "first_name": "The",
+            "last_name": "Democrats",
             "election": 9,
             "party": "Republican",
             "state": "Wyoming",
@@ -139,8 +139,8 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 85,
         "fields": {
-            "first_name": "Republican",
-            "last_name": "Party",
+            "first_name": "The",
+            "last_name": "Republicans",
             "election": 9,
             "party": "Democrat",
             "state": "Connecticut",
