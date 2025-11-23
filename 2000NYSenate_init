@@ -1,193 +1,3 @@
-campaignTrail_temp.election_json = [
-    {
-        "model": "campaign_trail.election",
-        "pk": 15,
-        "fields": {
-            "year": 2000,
-            "summary": "<p>As New York enters the next millenium, four-term incumbent Senator Daniel Patrick Moynihan has announced his retirement after over 20 years of serving the state. With Bill Clinton's first term wrapping up, all eyes are on this lucrative open seat that is now up for grabs. <br><br> On July 7, 1999, the First Lady of the United States, Hillary Clinton, formally announced an exploratory committee to run for the Senate. Though New York is solidly blue at the federal level, this election has already become a media spectacle. Mayor of New York City, Rudy Giuliani, has already expressed interest in running for the open seat as well. Whoever comes out on top, this election is sure to be generational, one way or another.",
-            "image_url": "https://i.postimg.cc/LXjpvRjc/Election-image-this-is-better-then-the-old-one-ngl.png",
-            "winning_electoral_vote_number": 0,
-            "advisor_url": "",
-            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Books and Links</h4>Peter Goldman - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B012HU7SZA/amhius20-20\" target=\"_blank\">The Quest for the Presidency, 2000</a></br>L.A. Times, November 10, 2000 - <a href=\"http://articles.latimes.com/2000-11-10/news/mn-299_1_dukakis-lost-reelection\" target=\"_blank\">How Presidential Race Was Won-and Lost : Michael S. Dukakis</a></br>L.A. Times, November 10, 2000 - <a href=\"http://articles.latimes.com/2000-11-10/news/mn-302_1_george-bush\" target=\"_blank\">How Presidential Race Was Won--and Lost : George Bush</a></br><a href=\"http://www.usnews.com/news/articles/2008/01/17/the-photo-op-that-tanked\" target=\"_blank\">Michael Dukakis: The Photo Op That Tanked</a>",
-            "has_visits": 1,
-            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
-            "creator": "Dan Bryan",
-            "display_year": "2000NYSenate"
-        }
-    }
-]
-
-campaignTrail_temp.candidate_json = [
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 152,
-        "fields": {
-            "first_name": "Hillary",
-            "last_name": "Clinton",
-            "election": 15,
-            "party": "Democrat",
-            "state": "Westchester",
-            "priority": 1,
-            "description": "<p>Hillary Rodham Clinton is the wife of President Bill Clinton and the First Lady of the United States. Rather politically active for such a ceremonial position, she has seen a surge in approval ratings, especially after her husband got caught up in the Monica-Lewinsky scandal a few months ago. Before that, she was the First Lady of Arkansas. <br><br> Of course, none of that changes the fact that she has never lived in New York once in her life, that her opponents will call her a carpetbagger at every chance they get, and that her nomination will give Republicans all the cannon fodder they could ever need. Still, she has support of the national Democratic Party, broad name recognition, and a massive fundraising game. If she can manage her campaign perfectly, she may soon become Madame Senator. </p>",
-            "color_hex": "#5c7cc7",
-            "secondary_color_hex": "#FFA0A0",
-            "is_active": 1,
-            "image_url": "https://i.postimg.cc/fbrL1wt0/Hillary.png",
-            "electoral_victory_message": "",
-            "electoral_loss_message": "",
-            "no_electoral_majority_message": "",
-            "description_as_running_mate": "'",
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 153,
-        "fields": {
-            "first_name": "Rudy",
-            "last_name": "Giuliani",
-            "election": 15,
-            "party": "Republican",
-            "state": "Manhattan",
-            "priority": 2,
-            "description": "<p>Rudy Giuliani is the Republican Mayor of New York City.  Following a narrow victory in 1993, Giuliani has become increasingly popular with residents of the city, mainly due to his tough-on-crime policies which led to a significant reduction of violence in the city. He romped to a landslide victory in 1997 by over 17 points, even as the city remained overwhelmingly Democratic at the state and national level. <br><br> Limited from seeking a third term, Giuliani has continued to have skyrocketing popularity in the state's most important city, and is by far the best contender the Republicans have to win the Senate race. Being fierce rivals with the Clintons ever since they moved to New York, this is his chance to settle the score and defeat them once and for all. </p>",
-            "color_hex": "#a8403b",
-            "secondary_color_hex": "#90C0FF",
-            "is_active": 1,
-            "image_url": "https://i.postimg.cc/m2qQ3wDJ/Giuliani.png",
-            "electoral_victory_message": "",
-            "electoral_loss_message": "",
-            "no_electoral_majority_message": "",
-            "description_as_running_mate": "'",
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 154,
-        "fields": {
-            "first_name": "Mark",
-            "last_name": "Danau",
-            "election": 15,
-            "party": "Libertarian",
-            "state": "Texas",
-            "priority": 3,
-            "description": "'",
-            "color_hex": "#FFFF00",
-            "secondary_color_hex": "#FFFFC0",
-            "is_active": 0,
-            "image_url": "'",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "'",
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 155,
-        "fields": {
-            "first_name": "Jeff",
-            "last_name": "Graham/Others",
-            "election": 15,
-            "party": "Independent",
-            "state": "Pennsylvania",
-            "priority": 4,
-            "description": "'",
-            "color_hex": "#00C100",
-            "secondary_color_hex": "#A1FFA1",
-            "is_active": 0,
-            "image_url": "'",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "'",
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 156,
-        "fields": {
-            "first_name": "The",
-            "last_name": "Democrats",
-            "election": 15,
-            "party": "Democratic",
-            "state": "Nationwide",
-            "priority": 5,
-            "description": "'",
-            "color_hex": "#001eff",
-            "secondary_color_hex": "#FFA0A0",
-            "is_active": 0,
-            "image_url": "",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "put description here",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 159,
-        "fields": {
-            "first_name": "The",
-            "last_name": "Republicans",
-            "election": 15,
-            "party": "Democrat",
-            "state": "Statewide",
-            "priority": 8,
-            "description": "'",
-            "color_hex": "#ff0000",
-            "secondary_color_hex": "#90C0FF",
-            "is_active": 0,
-            "image_url": "",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "put description here",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    }
-]
-
-campaignTrail_temp.running_mate_json = [
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 101,
-        "fields": {
-            "candidate": 153,
-            "running_mate": 159
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 98,
-        "fields": {
-            "candidate": 152,
-            "running_mate": 156
-        }
-    }
-]
-
-credits = function() {
-    c = ["Coding\nTheMcCain\n\nWriting\nTheMcCain\n\nBanner, candidate images, and other art assets\nlittleamericanman\n\nBorrows code from 2012 Shattered,    \n\n Thanks for playing!"]
-    text = ""
-    for (i in c) {
-        text += c[i] + "\n"
-    }
-    alert(text)
-  }
- 
-campaignTrail_temp.credits = "<button onclick='credits()'>Various People</button>";
-
 campaignTrail_temp.global_parameter_json = [
     {
         "model": "campaign_trail.global_parameter",
@@ -213,33 +23,198 @@ campaignTrail_temp.global_parameter_json = [
     }
 ]
 
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 9,
+        "fields": {
+            "year": 2000,
+            "summary": "<p>As New York enters the next millenium, four-term incumbent Senator Daniel Patrick Moynihan has announced his retirement after over 20 years of serving the state. With Bill Clinton's first term wrapping up, all eyes are on this lucrative open seat that is now up for grabs. <br><br> On July 7, 1999, the First Lady of the United States, Hillary Clinton, formally announced an exploratory committee to run for the Senate. Though New York is solidly blue at the federal level, this election has already become a media spectacle. Mayor of New York City, Rudy Giuliani, has already expressed interest in running for the open seat as well. Whoever comes out on top, this election is sure to be generational, one way or another.",
+            "image_url": "https://i.postimg.cc/LXjpvRjc/Election-image-this-is-better-then-the-old-one-ngl.png",
+            "winning_electoral_vote_number": 0,
+            "advisor_url": "",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">The Florida Recount / 2000 Election</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000RH0DVM/amhius20-20\" target=”_blank”>Jeffrey Toobin - Too Close to Call: The Thirty-Six-Day Battle to Decide the 2000 Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B00EMLDHFI/amhius20-20\" target=”_blank”>Andrew E. Busch & James W. Ceaser - The Perfect Tie: The True Story of the 2000 Presidential Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>Books by the Candidates</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000C4SV2I/amhius20-20\" target=”_blank”>George W. Bush - A Charge to Keep: My Journey to the White House</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0452269350/amhius20-20\" target=”_blank”>Al Gore - Earth in the Balance</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\"http://www.vanityfair.com/news/2004/10/florida-election-2000\" target=”_blank”>The Path to Florida</a></br><a href=\"http://www.historyplace.com/speeches/gore-concedes.htm\" target=”_blank”>Al Gore Concedes the 2000 Election</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "",
+            "creator": "Dan Bryan",
+            "display_year": "2000NYSenate"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 77,
+        "fields": {
+            "first_name": "Hillary",
+            "last_name": "Clinton",
+            "election": 9,
+            "party": "Democrat",
+            "state": "Westchester",
+            "priority": 1,
+            "description": "<p>Hillary Rodham Clinton is the wife of President Bill Clinton and the First Lady of the United States. Rather politically active for such a ceremonial position, she has seen a surge in approval ratings, especially after her husband got caught up in the Monica-Lewinsky scandal a few months ago. Before that, she was the First Lady of Arkansas. <br><br> Of course, none of that changes the fact that she has never lived in New York once in her life, that her opponents will call her a carpetbagger at every chance they get, and that her nomination will give Republicans all the cannon fodder they could ever need. Still, she has support of the national Democratic Party, broad name recognition, and a massive fundraising game. If she can manage her campaign perfectly, she may soon become Madame Senator. </p>",
+            "color_hex": "#5c7cc7",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://i.postimg.cc/fbrL1wt0/Hillary.png",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 78,
+        "fields": {
+            "first_name": "Rudy",
+            "last_name": "Giuliani",
+            "election": 9,
+            "party": "Republican",
+            "state": "New York",
+            "priority": 2,
+            "description": "<p>Rudy Giuliani is the Republican Mayor of New York City.  Following a narrow victory in 1993, Giuliani has become increasingly popular with residents of the city, mainly due to his tough-on-crime policies which led to a significant reduction of violence in the city. He romped to a landslide victory in 1997 by over 17 points, even as the city remained overwhelmingly Democratic at the state and national level. <br><br> Limited from seeking a third term, Giuliani has continued to have skyrocketing popularity in the state's most important city, and is by far the best contender the Republicans have to win the Senate race. Being fierce rivals with the Clintons ever since they moved to New York, this is his chance to settle the score and defeat them once and for all.  </p>",
+            "color_hex": "#a8403b",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://i.postimg.cc/m2qQ3wDJ/Giuliani.png",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "",
+            "description_as_running_mate": "",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 79,
+        "fields": {
+            "first_name": "Mark",
+            "last_name": "Danau/Others",
+            "election": 9,
+            "party": "",
+            "state": "",
+            "priority": 3,
+            "description": "",
+            "color_hex": "#ffe95b",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 81,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Democrats",
+            "election": 9,
+            "party": "",
+            "state": "",
+            "priority": 5,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 85,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Republicans",
+            "election": 9,
+            "party": "",
+            "state": "",
+            "priority": 9,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/joe-lieberman-2000.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 48,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 81
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 52,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 85
+        }
+    }
+]
+
+credits = function() {
+    c = ["Coding\nTheMcCain\n\nWriting\nTheMcCain\n\nBanner, candidate images, and other art assets\nlittleamericanman\n\nBorrows code from 2012 Shattered, 2016 Four-Way Redux ...\n\nThanks for playing!"]
+    text = ""
+    for (i in c) {
+        text += c[i] + "\n"
+    }
+    alert(text)
+  }
+
+campaignTrail_temp.credits = "<button onclick='credits()'>Various People</button>";
+
 campaignTrail_temp.opponents_default_json = [
     {
-        "election": 15,
+        "election": 9,
         "candidates": [
-            152,
-            153,
-            154,
-            155
+            77,
+            78,
+            79
         ]
     }
 ]
 
 campaignTrail_temp.opponents_weighted_json = [
     {
-        "election": 15,
+        "election": 9,
         "candidates": [
-            152,
-            153,
-            154,
-            155
+            77,
+            78,
+            79
         ]
     }
 ]
 
 campaignTrail_temp.temp_election_list = [
     {
-        "id": 15,
+        "id": 9,
         "year": 2000,
         "is_premium": 0,
         "display_year": "2000NYSenate"
@@ -251,7 +226,7 @@ jet_data = {
     "windowColor": "#476f9a",
     "containerColor": "#34587f",
     "innerWindowColor": "#d6dce6",
-    "bannerImageUrl": "",
+    "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
     "backgroundImageUrl": "https://i.postimg.cc/3w35RK3G/image.png",
     "endingTextColor": "#ffffff",
     "customQuote": "quote",
@@ -259,6 +234,7 @@ jet_data = {
 }
 
 //#startcode
+
 
 quotes = ["''A true New Yorker isn't someone who was born in New York, but someone who couldn’t live anywhere else.''", "''I got to preside over the city during four Yankee championships.''", "''History will be made on November 7th, 2000.''"]
 customquote = quotes[Math.floor((Math.random() * quotes.length))]
@@ -296,13 +272,13 @@ style.innerHTML = `
     background-position: center;
     background-size: cover;
 }
-  .campaign_trail_start_emphasis {
-    background: #406C9C;
-  }
 #election_image img {
   border: 2px solid #406C9C; 
   border-radius: 0;          
 }
+  .campaign_trail_start_emphasis {
+    background: #406C9C;
+  }
 
 `; 
 
