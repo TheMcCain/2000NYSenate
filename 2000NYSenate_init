@@ -241,24 +241,17 @@ customquote = quotes[Math.floor((Math.random() * quotes.length))]
 corrr = `\n<h2>The Campaign Trail</h2><font id='wittyquote' size='4' color='FFFFFF'><em>` + customquote + `</em></font>`;
 
 e.collect_results = true;
+console.log(e.player_answers)
+RecReading = true;
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#34587F";
-
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#D6DCE6";
-
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
-
 $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
-
 $(".container")[0].style.backgroundColor = "#34587f";
-
 document.getElementById("header").src = "https://i.postimg.cc/FHbFDrpV/image.png";
-
 document.body.background = "https://i.postimg.cc/3w35RK3G/image.png";
-
 document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#d6dce6!important;}</style>";
-
-//#endcode
 
 e.HomeStateText = "County:";
 
@@ -267,8 +260,9 @@ const style = document.createElement("style");
 
 style.innerHTML = `
 #opponent_selection_id_back {
-    display: none; 
-  }
+    opacity: 0.4; 
+    pointer-events: none;
+}
   div#site_credits p,
   div#site_credits a {
   color: white !important;
