@@ -180,7 +180,7 @@ campaignTrail_temp.running_mate_json = [
 ]
 
 credits = function() {
-    c = ["Coding\nTheMcCain\n\nWriting\nTheMcCain\n\nBanner, candidate images, and other art assets\nlittleamericanman\n\nBorrows code from 2012 Shattered,  \n\n Thanks for playing!"]
+    c = ["Coding\nTheMcCain\n\nWriting\nTheMcCain\n\nBanner, candidate images, and other art assets\nlittleamericanman\n\nBorrows code from 2012 Shattered \nMap from 1974NY Senate.  \n\n Thanks for playing!"]
     text = ""
     for (i in c) {
         text += c[i] + "\n"
