@@ -253,16 +253,9 @@ document.getElementById("header").src = "https://i.postimg.cc/FHbFDrpV/image.png
 document.body.background = "https://i.postimg.cc/3w35RK3G/image.png";
 document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#d6dce6!important;}</style>";
 
-e.HomeStateText = "County:";
-
-// remove vp screen
 const style = document.createElement("style");
 
 style.innerHTML = `
-#opponent_selection_id_back {
-    opacity: 0.4; 
-    pointer-events: none;
-}
   div#site_credits p,
   div#site_credits a {
   color: white !important;
@@ -298,12 +291,16 @@ document.getElementById("inner_window_1").children[1].innerHTML = `<li>Select a 
     }
 
   // Remove VP selection
-  let z = new MutationObserver((mutationsList, observer) => {
-    let runningMateSummary = document.querySelector("#running_mate_summary");
-    if (runningMateSummary) {
-      $("#running_mate_id_button").click();
-      observer.disconnect();
-    }
-  });
+$(document).on('click', '#candidate_id_button', () => {
+    $('#running_mate_id_button').click();
+});
 
-z.observe(document, { subtree: true, childList: true });
+$(document).on('click', '#opponent_selection_id_back', () => {
+    $('#running_mate_id_back').click();
+});
+
+$(document).on('click', '#opponent_selection_id_button', () => {});
+
+e.HomeStateText = "County:";
+
+
